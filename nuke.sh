@@ -3,8 +3,9 @@
 # test bash if
 
 echo This tool is DESTRUCTIVE. Ensure that you are using this on the correct account! 
-echo Cross-reference the account-name (located in the top-right) with the account-name in the central spreadsheet.
-echo Press enter to continue (or exit with ctrl + c)
+echo Cross-reference the account-name located in the top-right with the account-name in the central spreadsheet.
+echo This should ONLY be used on student accounts due for suspension and deletion - NEVER on the management account.
+echo Press enter to continue or exit with ctrl + c.
 
 read x
 
