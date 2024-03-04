@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+echo Initiating Fallout. This will delete all IAM logins. Hit enter to continue or ctrl+c to exit
+
+read x
+
+
 _process_user() {
     _detach_policies $1 &
     _delete_access_keys $1 &

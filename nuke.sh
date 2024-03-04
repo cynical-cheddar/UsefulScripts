@@ -15,7 +15,7 @@ cd /usr/local/bin
 sudo chmod u+x cloud-nuke
 sudo cloud-nuke aws
 
-echo Nuke completed. Removing all IAM users.
+echo Nuke completed. Removing all IAM Users.
 
 
 _process_user() {
@@ -57,5 +57,7 @@ main() {
         _process_user "$user"
     done
 }
+
+echo Fallout complete. All IAM Users have been removed.
 
 main
